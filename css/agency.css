@@ -56,6 +56,9 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+.bottom-margin {
+  margin-bottom: 40px;
+}
 .btn-primary {
   color: #ffffff;
   background-color: #ff9d0a;
@@ -468,6 +471,10 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
+.social-button {
+  margin: 0 15px;
+}
+
 ul.social-buttons {
   margin: 0 10px;
   text-align: center;
