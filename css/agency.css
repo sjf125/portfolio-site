@@ -11,6 +11,10 @@ body {
 .text-muted {
   color: #777777;
 }
+.text-light {
+  color: #c4c4c4;
+}
+
 .text-primary {
   color: #ff9d0a;
 }
@@ -288,9 +292,8 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
 }
@@ -382,8 +385,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
 }
@@ -457,12 +459,14 @@ section#contact .text-danger {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #000;
 }
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  color: #fff;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
@@ -479,6 +483,7 @@ ul.social-buttons {
   margin: 0 10px;
   text-align: center;
 }
+
 ul.social-buttons li a {
   display: block;
   background-color: #222222;
@@ -493,6 +498,21 @@ ul.social-buttons li a {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+ul.social-buttons-sm li a {
+  display: block;
+  background-color: #222222;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  font-size: 15px;
+  line-height: 30px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
