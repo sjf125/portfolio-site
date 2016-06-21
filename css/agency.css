@@ -484,33 +484,27 @@ ul.social-buttons {
   text-align: center;
 }
 
-ul.social-buttons li a {
+ul.contact-buttons li a {
   display: block;
   background-color: #222222;
   height: 60px;
-  width: 60px;
-  border-radius: 100%;
+  border-radius: 30px;
   font-size: 30px;
   line-height: 60px;
   color: white;
   outline: none;
+  padding: 0 18px 5px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-ul.social-buttons-sm li a {
-  display: block;
-  background-color: #222222;
-  height: 30px;
-  width: 30px;
-  border-radius: 100%;
-  font-size: 15px;
-  line-height: 30px;
-  color: white;
-  outline: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+.contact-button a:hover {
+  background-color: #ff9d0a;
+}
+
+.contact-button a {
+  color: #fff;
+  text-decoration: none;
 }
 
 ul.social-buttons li a:hover,
